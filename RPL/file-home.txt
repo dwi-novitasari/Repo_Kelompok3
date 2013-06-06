@@ -1,0 +1,4 @@
+Absensi yang digunakan di Universitas Syiah Kuala adalah absensi ELEKTRONIK FINGER PRINT.
+Absensi ini hanya bisa diakses lewat mesin finger print pada saat jam kuliah berlangsung.
+Jika anda Admin mengubah atau menambah  data silahkan log in dengan username dan pasword.
+Jika anda hanya ingin melihat absensi maka pilih pada pilihan data mahasiswa atau dosen.
