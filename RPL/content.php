@@ -11,4 +11,12 @@
   else if($_GET["cm"]=="p2"){
     include "pendataan1.php";
   }
+   else if($_GET["cm"]=="d-19"){
+    include "d-19.php";
+  }
+   else if($_GET["cm"]=="d-25"){
+    include "d-25.php";
+  }
+  
+  
 ?>
