@@ -76,4 +76,5 @@
 	</table>
 </fieldset>
 <br>
+
 	<p align="left"><input type="reset" value="Kembali" class="button" onclick="history.go(-1);"></p>
