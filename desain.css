@@ -1,0 +1,171 @@
+<style type="text/css">
+	  ul{
+		font-family:arial;
+		font-size:12px;
+		list-style:none;
+	  }
+	  ul li{
+		display:block;
+		position:relative;
+		float:left;
+		margin:0 auto;
+	  }
+	  li ul{
+		display:none;
+		margin-left:-40px;
+	  }
+	  li ul li ul{
+		display:none;
+		margin-left:78px;
+	  }
+	  ul li a {
+		padding:5px 20px 5px 20px;
+		white-space:nowrap;
+		background:black;
+		display:block;
+		text-decoration:none;
+		color:white;
+	  }
+	  ul li a:hover{
+		background:dimgray;
+	  }
+	  li:hover ul{
+		display:block;
+		position:absolute;
+	  }
+	  li:hover li{
+		float:none;
+		font-size:12px;
+	  }
+	  li:hover a{
+		background:dimgray;
+	  }
+	  li:hover li a:hover{
+		background:black;
+	  }
+	  #page{
+		height: auto; 
+		width: 95%; 
+		diplay:block;
+		padding-top:0px
+		font-family:arial;
+		background:white;
+		margin-top:-21px;
+		-moz-box-shadow: 0 0 10px 5px grey;   
+		-webkit-box-shadow: 0 0 10px 5px grey;   
+		box-shadow: 0 0 10px 5px grey;
+	  }
+	  #header{
+		height:120px; 
+		width:100%; 
+		display:block;
+		font-weight:bold; 
+		color:black; 
+		padding-top:0px;
+		background:navy;
+      }
+	  #footer{
+		height:30px; 
+		margin-top:35px;
+		width:100%; 
+		color:black;
+		font-family:arial;
+		background:navy;
+		line-height:30px;
+	  }
+	  .tombol{
+		background:Steelblue;
+		color:black; 
+		font-family:arial;
+	  }
+	  .tombol:hover{
+	    background:lightblue;
+	  }
+	  .button{
+	  background-color: steelblue; 
+	  height: 40; 
+	  width: 80; 
+	  border-radius:5; 
+	  font-weight:bold; 
+	  color:black;
+	  }
+	  .button:hover{
+	    background:lightblue;
+	  }
+	  h2{
+        margin-right:50px;
+        margin-left:50px;
+	    border-bottom:1px solid navy;
+	  }
+	  p, li, table{
+	    margin-right:50px;
+        margin-left:50px;
+		font-size:16px;
+	  }
+	  #menu{
+	    width:100%; 
+		height:29px;
+		top:-20px;
+		background:black;
+		display:block;
+		color:white;
+		position:relative;
+	  }
+	  #isi{
+	    margin-right:50px;
+        margin-left:50px;
+	    height:auto;
+		display:block;
+		overflow:visible;
+		color:black;
+		font-size:small;
+		font-family:arial;
+		background:white;
+	  }
+    .form input[type=text],
+	.form input[type=password],
+	.form input[type=number],
+	.form textarea[type=file],
+	.form input[type=date],
+	.form select
+	{
+		font-family: 'Lato', Calibri, Arial, sans-serif;
+		font-size: 13px;
+		font-weight: 400;
+		display: block;
+		width: 100%;
+		padding: 5px;
+		margin-bottom: 5px;
+		border: 3px solid #ebe6e2;
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-ms-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+
+	.form input[type=text]:hover,
+	.form input[type=password]:hover ,
+	.form input[type=number]:hover,
+	.form textarea[type=file]:hover,
+	.form input[type=date]:hover,
+	.form select:hover
+	{
+		border-color: #CCC;
+	}
+
+	.form label:hover ~ input {
+		border-color: #CCC;
+	}
+
+	.form input[type=text]:focus,
+	.form input[type=password]:focus,
+	.form input[type=number] :focus,
+	.form textarea[type=file]:focus,
+	.form input[type=date]:focus,
+	.form select:focus
+	{
+		border-color: #BBB;
+		outline: none; /* Remove Chrome's outline */
+	}
+</style>
