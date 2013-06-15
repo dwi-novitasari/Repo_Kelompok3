@@ -1,5 +1,9 @@
 <fieldset style="border:none;">
+<<<<<<< HEAD
 	<h2 align="left">Data Dosen Tahun Ajaran 2012/2013</h2>
+=======
+  <h2 align="left">Data Dosen Tahun Ajaran 2012/2013</h2>
+>>>>>>> 32dcf042fc7a8e30ab31b24f4544f51d8f702f83
 	<li align="left">Dr. Taufik Fuadi Abidin, M.Tech</li><br>
 	<table border='1' cellspacing="0" cellpadding="8px" align="left">
 		<tr style="font-weight:bold;">
@@ -59,4 +63,8 @@
 	</table>
 </fieldset>
 <br></br>
+<<<<<<< HEAD
 	<p align="left"><input type="reset" value="Kembali" class="button" onclick="history.go(-1);"></p>
+=======
+	<p align="left"><input type="reset" value="Kembali" class="button" onclick="history.go(-1);"></p>
+>>>>>>> 32dcf042fc7a8e30ab31b24f4544f51d8f702f83
